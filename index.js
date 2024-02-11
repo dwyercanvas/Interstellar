@@ -28,6 +28,7 @@ const routes = [
   { path: '/0', file: 'tabs.html' },
   { path: '/&', file: 'go.html' },
   { path: '/e', file: 'now.html' },
+  { path: '/i', file: 'iframe.html' },
 ]
 
 const fetchData = async (req, res, next, baseUrl) => {
